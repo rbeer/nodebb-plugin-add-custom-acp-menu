@@ -10,7 +10,7 @@ First, add
 <!-- IF custom_menu.length -->
   <div class="sidebar-nav">
     <ul class="nav nav-list">
-      <li class="nav-header"><i class="fa fa-fw fa-th"></i>Your List Category</li>
+      <li class="nav-header"><i class="fa fa-fw fa-th"></i>CUSTOM MENU</li>
       <!-- BEGIN custom_menu -->
       <li>
         <a href="{relative_path}/admin{custom_menu.route}">
@@ -47,6 +47,6 @@ var data = {
 ```
 (around line 100) in /src/middleware/admin.js.
 
-As for the plugin: You are looking at it! :stuck_out_tongue: 
+As for the plugin: You are looking at it! :stuck_out_tongue:
 
 In a nutshell, the same aproach as you would add a normal "Installed Plugins" entry, with the exception that you define your own collection, hence the need to change the two core files. :)

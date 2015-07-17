@@ -3,14 +3,14 @@
 var AddACPMenu = {};
 
 AddACPMenu.addPluginMenu = function(header, callback) {
-    header.plugin_menu = [{
+    header.custom_menu = [{
             "icon": 'fa-location-arrow',
-            "route": 'link1.html',
+            "route": '/link1.html',
             "name": 'Link1'
         },
         {
             'icon': 'fa-location-arrow',
-            'route': 'link2.html',
+            'route': '/link2.html',
             'name': 'Link2'
         }
     ];

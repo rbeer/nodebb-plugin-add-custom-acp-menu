@@ -1,0 +1,10 @@
+{
+  "id": "nodebb-plugin-add-custom-acp-menu",
+  "name": "Example for adding custom ACP menu entries in NodeBB.",
+  "description": "Add your own menu category/items to the ACP.",
+  "url": "https://github.com/rbeer/nodebb-plugin-add-custom-acp-menu",
+  "library": "./library.js",
+  "hooks": [
+    { "hook": "filter:admin.header.build", "method": "addPluginMenu" }
+  ]
+}

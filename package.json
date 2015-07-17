@@ -1,0 +1,31 @@
+{
+  "name": "nodebb-plugin-add-custom-acp-menu",
+  "version": "0.0.1",
+  "description": "Example for adding custom ACP menu entries in NodeBB.",
+  "author": {
+    "name": "Raphael Beer",
+    "email": "rbeerdev@gmail.com"
+  },
+  "main": "library.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rbeer/nodebb-plugin-add-custom-acp-menu"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/rbeer/nodebb-plugin-add-custom-acp-menu/master/LICENSE"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/rbeer/nodebb-plugin-add-custom-acp-menu/issues"
+  },
+  "homepage": "https://github.com/rbeer/nodebb-plugin-add-custom-acp-menu",
+  "keywords": [
+    "nodebb",
+    "examples"
+  ],
+  "nbbpm": {
+    "compatibility": "^0.7.0"
+  }
+}

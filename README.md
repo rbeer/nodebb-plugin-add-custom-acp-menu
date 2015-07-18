@@ -1,5 +1,14 @@
 ##How can I add a section in the Admin Menu?
-[This has been requested in the official NodeBB forums.](https://community.nodebb.org/topic/6057/how-can-i-add-a-section-in-the-admin-menu)
+[This has been asked in the official NodeBB forums.](https://community.nodebb.org/topic/6057/how-can-i-add-a-section-in-the-admin-menu)
+
+Hey guys, looked at the documentation briefly and didn't see any ways to add a section
+to the Administration Menu.
+
+Something like this:
+
+![q_ex](https://i.imgur.com/SjR1PSZ.png)
+
+---
 
 To do this you want to:
 * Edit [/src/views/admin/partials/menu.tpl](https://github.com/NodeBB/NodeBB/blob/master/src/views/admin/partials/menu.tpl), as well as [/src/middleware/admin.js](https://github.com/NodeBB/NodeBB/blob/master/src/admin.js).
